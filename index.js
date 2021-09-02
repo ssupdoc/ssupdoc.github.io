@@ -5,8 +5,19 @@ $( document ).ready(function() {
         },
         help: function () {
             this.echo('whoami - about me\r\n'
-            + 'more coming soon...');
+            + 'ls - list directory contents\r\n'
+            + 'More coming soon...');
         },
+        dir: function() {
+            this.echo('Invalid command. Does this look like a windows command prompt to you?')
+        },
+        ls: function() {
+            lsString = ""
+            links.forEach(link => {
+                lsString+="[[;#000;rgba(0, 128, 0, 0.99)]" + link.label + "]\n"
+            })
+            this.echo(lsString)
+        }
     }, {
         greetings: `
         :::'##:::::'##:'########:'##::::::::'######:::'#######::'##::::'##:'########:::: 
@@ -37,3 +48,31 @@ $( document ).ready(function() {
 Type "help" for more information`
     });
 });
+
+const links = [
+    {   
+        id: 'ln',
+        label: 'linkedin.txt',
+        value: 'https://www.linkedin.com/in/sriramj19/'
+    },
+    {   
+        id: 'gh',
+        label: 'github.txt',
+        value: 'https://github.com/ssupdoc/'
+    },
+    {   
+        id: 'sex',
+        label: 'stackoverflow.txt',
+        value: 'https://stackexchange.com/users/8943458/sriram-jayaraman'
+    },
+    {   
+        id: 'twt',
+        label: 'twitter.txt',
+        value: 'https://twitter.com/ssup_doc'
+    },
+    {   
+        id: 'fb',
+        label: 'facebook.txt',
+        value: 'https://www.facebook.com/ssupdoc'
+    }
+]
