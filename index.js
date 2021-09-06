@@ -5,7 +5,7 @@ $(document).ready(function () {
         },
         help: function () {
             this.echo('List of available commands:\r\n'
-                + 'whoami - about me\r\n'
+                + 'whoami - display effective user id\r\n'
                 + 'ls - list directory contents\r\n'
                 + 'pwd - return directory name\r\n'
                 + 'cat <filename> - print a file\r\n'
