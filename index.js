@@ -110,6 +110,8 @@ catering to my interests. That does not mean I shy away from other aspects of se
 I want to be a life-long learner and I am confident that cyber security has a plethora
 of rabbit holes for me to dive into. Feel free to say hi via any of my socials. I love
 discussing all things tech, all things security.
+
+PS: If you ever need a player for a game of footy, I am ALWAYS keen.
 `
     }
 ]
