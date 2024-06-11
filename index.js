@@ -12,7 +12,7 @@ $(document).ready(function () {
                 + 'clear - clear the terminal screen');
         },
         dir: function () {
-            this.echo('Invalid command. Does this look like a windows command prompt to you?\nType "help" for usable commands')
+            this.echo('Nope, not a Windows shell! \nType "help" for usable commands')
         },
         ls: function () {
             lsString = ""
@@ -93,21 +93,16 @@ const links = [
         value: 'https://twitter.com/ssup_doc'
     },
     {
-        id: 'fb',
-        label: 'facebook.txt',
-        value: 'https://www.facebook.com/ssupdoc'
-    },
-    {
         id: 'about',
         label: 'about.txt',
         value: `[[;#fff;]
 Kia ora!
-I am Sriram Jayaraman, you can call me Jay. I am an enthusiastic infosec professional,
+I am Jay. I am an enthusiastic infosec professional,
 with lots of love towards building and breaking stuff. I have particular interests in 
-application security and vulnerability assessment. Having been a software developer for
-a good couple of years, I have a good understanding of how web applications work, 
+web application security and Active Directory, currently pursuing my OSCP. Having been a software developer for
+the first half of my career, I have a good understanding of how web applications work, 
 catering to my interests. That does not mean I shy away from other aspects of security.
-I want to be a life-long learner and I am confident that cyber security has a plethora
+I want to be a life-long learner and I am confident that infosec has a plethora
 of rabbit holes for me to dive into. Feel free to say hi via any of my socials. I love
 discussing all things tech, all things security.
 
